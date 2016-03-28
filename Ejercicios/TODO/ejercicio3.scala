@@ -13,3 +13,11 @@ scala> concatenandoCadenas(sentence)
 
 Pista: foldLeft
 */
+
+
+object ejercicio3 {
+	def main(args: Array[String]): Unit = {
+
+		// Your code here
+	}
+}

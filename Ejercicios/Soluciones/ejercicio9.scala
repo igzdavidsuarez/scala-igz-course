@@ -12,3 +12,11 @@ val cont=makeContador(2,cuadrado	_)
 cont()→	4	
 cont()→	16
 */
+
+object ejercicio9 {
+	def main(args: Array[String]): Unit = {
+
+		// Your code here
+	  	
+	}
+}

@@ -13,3 +13,12 @@ Mensajes	y	acciones	a	realizar:
 ●	"total":	para	saber	cuánto dinero	ha	recogido	un	determinado parkimetro.	●	"Pck":	El	Pempo
 se	decrementa manualmente simulando	el	Pck	de	reloj.
 */
+
+
+object ejercicio10 {
+	def main(args: Array[String]): Unit = {
+
+		// Your code here
+	  	
+	}
+}
