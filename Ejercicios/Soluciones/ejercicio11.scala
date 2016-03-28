@@ -14,4 +14,4 @@ scala>moneda()	res31:java.lang.String=cara
 scala>moneda()	res32:java.lang.String=cruz		
 scala>moneda()	res33:java.lang.String=canto		
 scala>moneda()	res34:java.lang.String=cara
-/*
+*/

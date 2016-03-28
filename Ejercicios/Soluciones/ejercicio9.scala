@@ -11,4 +11,4 @@ def cuadrado(x:Int)=x*x
 val cont=makeContador(2,cuadrado	_)	
 cont()→	4	
 cont()→	16
-/*
+*/

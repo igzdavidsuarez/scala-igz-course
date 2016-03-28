@@ -12,4 +12,4 @@ scala> concatenandoCadenas(sentence)
 [a:starthappychristmasdecember25][b:2016]
 
 Pista: foldLeft
-/*
+*/

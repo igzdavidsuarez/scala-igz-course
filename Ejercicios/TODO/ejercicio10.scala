@@ -12,4 +12,4 @@ Mensajes	y	acciones	a	realizar:
 ●	"Pempo":	paraconsultar	el	Pempo que	le	queda
 ●	"total":	para	saber	cuánto dinero	ha	recogido	un	determinado parkimetro.	●	"Pck":	El	Pempo
 se	decrementa manualmente simulando	el	Pck	de	reloj.
-/*
+*/
