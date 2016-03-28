@@ -1,13 +1,11 @@
 /*
 ENUNCIADO:
-Función de Fibonacci
-Encuentra los primer N elementos de la secuencia de Fibonnaci.
+Función que encuentra el máximo elemento de una lista.
 */
 
-object ejercicio7 {
+object ejercicio6 {
 	def main(args: Array[String]): Unit = {
 
 		// Your code here
-	  	
 	}
 }

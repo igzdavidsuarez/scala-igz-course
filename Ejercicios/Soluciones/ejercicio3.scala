@@ -19,5 +19,15 @@ object ejercicio3 {
 	def main(args: Array[String]): Unit = {
 
 		// Your code here
+		val sentence = List("happy", "christmas", "december", "25", "2016")
+		concatenandoCadenas(sentence)
+
+	}
+
+	def concatenandoCadenas(list: List[String]) : Unit = {
+		list.foldLeft("start")((accum, x) => {
+			println("[a: " + accum  + "]" + " " + "[b: " + x + "]")
+			accum + x
+		})
 	}
 }

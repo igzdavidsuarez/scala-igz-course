@@ -7,8 +7,11 @@ Pista:last
 
 object ejercicio5 {
 	def main(args: Array[String]): Unit = {
-
-		// Your code here
-
+		
+		val list = List("Primero", "Segundo", "Tercero", "Cuarto", "Ultimo")
+		println(elUltimo(list))
 	}
+
+	// Using Generics to define the function
+	def elUltimo[A](ls: List[A]): A = ls.last
 }
