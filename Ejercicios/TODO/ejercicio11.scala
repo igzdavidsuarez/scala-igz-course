@@ -2,8 +2,8 @@
 ENUNCIADO:
 Define en Scala	un procedimiento que simule una moneda que,	
 cada vez que se	invoque, devuelva "cara" o "cruz"	
-alternaPvamente. Cada x Pradas,	caera	de	"canto", y a la	
-siguiente Prada volvera	a caer del lado que tocaba. El valor x se	
+alternativamente. Cada x tiradas,	caera	de	"canto", y a la	
+siguiente tirada volvera	a caer del lado que tocaba. El valor x se	
 determinara	en	la	creación de	la moneda.	
 
 var moneda=makeMoneda(5)		
@@ -22,4 +22,5 @@ object ejercicio11 {
 		// Your code here
 	  	
 	}
+
 }

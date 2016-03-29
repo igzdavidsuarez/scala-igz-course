@@ -16,7 +16,19 @@ cont()→	16
 object ejercicio9 {
 	def main(args: Array[String]): Unit = {
 
-		// Your code here
+		def cuadrado(x:Int)=x*x
+		val cont = makeContador(2, cuadrado)
+		println(cont()) // 4
+		println(cont()) // 16
+		println(cont()) // 256
 	  	
+	}
+
+	def makeContador(cont: Int, fn: (Int) => Int): () => Int = {
+		var last = cont
+		() => {
+			last = fn(last)
+		last
+		}
 	}
 }
