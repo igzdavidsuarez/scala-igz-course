@@ -6,9 +6,12 @@ Pista: replaceAll
 */
 
 object ejercicio4 {
-	def main(args: Array[String]): Unit = {
+  def main(args: Array[String]): Unit = {
 
-		// Your code here
+    // Your code here
+    var cadena = "<html><head><title>Mi titulo</title></head><body class=\"container\">Mi web.</body></html>"
+    println(cleaningHTML(cadena))
+  }
 
-	}
+  def cleaningHTML(html: String): String = html.replaceAll("<[^>]*>", ",")
 }
