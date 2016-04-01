@@ -19,7 +19,7 @@ scala>moneda()	res34:java.lang.String=cara
 object ejercicio11 {
 	def main(args: Array[String]): Unit = {
 
-		var moneda = makeMoneda(3)
+		var moneda = makeMoneda(4)
 		println("Primera tirada ---> ", moneda())
 		println("Segunda tirada ---> ", moneda())
 		println("Tercera tirada ---> ", moneda())
@@ -27,6 +27,9 @@ object ejercicio11 {
 		println("Quinta tirada ---> ", moneda())
 		println("Sexta tirada ---> ", moneda())
 		println("Séptima tirada ---> ", moneda())
+		println("Octava tirada ---> ", moneda())
+		println("Novena tirada ---> ", moneda())
+		println("Décima tirada ---> ", moneda())
 
 	  	
 	}
@@ -37,7 +40,7 @@ object ejercicio11 {
 		() => {
 			if (counter == interval){
 				counter = 1
-				moneda = "canto"
+				"canto"
 			} else {
 				if (moneda == "cara"){
 					counter += 1
@@ -46,8 +49,8 @@ object ejercicio11 {
 					counter += 1
 					moneda = "cara"
 				}
+				moneda
 			}
-		moneda
 		}
 	}
 }
